@@ -10,12 +10,14 @@ $(document).ready(function () {
         $(this).toggleClass('show');
     });
 
-    $('.input__dropdown').on('click', function () {
-        var parent = $(this).parent();
-        $(parent).children('.dropdown__itemsBlock').toggleClass('hide');
-        $(parent).children('.arrow_down_SVG').toggleClass('arrow_down_SVG_inverted');
-    });
+    $(document).on('mouseup', function (e){
+        let input__dropdown = $('.input__dropdown').parent();
 
+        if (!input__dropdown.is(e.target)  && input__dropdown.has(e.target).length === 0) {
+            $(input__dropdown).children('.dropdown__itemsBlock').addClass('hide');
+            $(input__dropdown).children('.arrow_down_SVG').removeClass('arrow_down_SVG_inverted');
+        }
+    })
 
     $('.dropdown__itemsBlock>li').on('click',function(){
         $(this).closest('.inputWrapper').children('.input__dropdown').val($(this).children('.dropdown__itemWithImage_text').text());
