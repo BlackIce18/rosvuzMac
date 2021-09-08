@@ -347,6 +347,14 @@ svg {
         }
     }
 
+    &.search-list-item {
+        min-height: 70px;
+
+        @media (max-width: $lg) {
+            min-height: 50px;
+        }
+    }
+
     &__container {
         &.active {
             .resume__text_block {
