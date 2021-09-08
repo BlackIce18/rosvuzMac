@@ -1,0 +1,23 @@
+.bookWrapper{
+    border-radius: 6px;
+    &-large{
+       
+        height: 86px;
+    width: 60px;
+    @media (max-width:$lg) {
+        height: 90px;
+    width: 64px;
+    }
+    }
+    height: 62px;
+    width: 40px;
+    @media (max-width:$lg) {
+        height: 70px;
+    width: 46px;
+    }
+    img{
+height: 100%;
+width: 100%;
+overflow: hidden;
+    }
+}

@@ -1,0 +1,27 @@
+.list{
+    &__circl{
+        li{
+display: block;
+&:before{
+    content: "•";
+    padding-right: 4px;
+    
+}}
+
+}
+&-blue{
+    
+    color:$blue;
+}
+    &__line{
+        display: block;
+li{
+    line-height: 22px;
+&::before{
+    content: "-";
+    padding-right: 4px;
+}
+}
+        list-style: none;
+    }
+}

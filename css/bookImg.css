@@ -1,0 +1,18 @@
+.bookWrapper {
+  height: 62px;
+  width: 40px;
+}
+
+@media (max-width: lg) {
+  .bookWrapper {
+    height: 70px;
+    width: 46px;
+  }
+}
+
+.bookWrapper img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=bookImg.css.map */

@@ -1,0 +1,48 @@
+@import '../scss/variables.scss';
+
+
+.fixed {
+    
+    &-bg {
+        &-white {
+            background: $white;
+        }
+    }
+    &-xl {
+        @media (min-width:$xl) {
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+        }
+    }
+    &__bottom {
+        bottom: 0;
+    }
+    &-width {
+        &-center {
+            padding-left: 50px;
+            left: $leftblock;
+
+            @media (min-width:$xxl) {
+
+                max-width: calc(100vw - #{$leftblock} - #{$rightblock} - 80px - 25px);
+            }
+
+            @media (min-width:$xl) and (max-width:$xxl) {
+
+                max-width: calc(100vw - #{$leftblock} - #{$rightblock_small} - 80px - 25px);
+            }
+
+        }
+    }
+
+    &-lg {
+        @media (max-width:$xl) {
+            &-defaultSetting {
+                position: static;
+                width: 100%;
+                padding: 0;
+            }
+        }
+    }
+}

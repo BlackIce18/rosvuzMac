@@ -1,0 +1,37 @@
+.like__count {
+  color: #c5c5c5;
+  font-size: 12px;
+  line-height: 12px;
+  display: inline-block;
+  margin: auto;
+  padding-left: 5px;
+}
+
+.like__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #c5c5c5;
+}
+
+.like__icon:hover .like__count, .like__icon .active .like__count {
+  color: #444444;
+}
+
+.like__icon:hover svg, .like__icon .active svg {
+  fill: #ce1818;
+}
+
+.like__icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #c5c5c5;
+}
+
+@media (max-width: 991px) {
+  .like__icon svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=like__icon.css.map */

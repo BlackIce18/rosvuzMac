@@ -1,0 +1,94 @@
+.message__icon-label {
+  height: 20px;
+  top: -10px;
+  right: -10px;
+  padding: 3px 6px;
+  border-radius: 10px;
+  background-color: #ce1818;
+  position: absolute;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message__icon-label-blue {
+  background: #3f59b7;
+  top: -3px;
+  right: -13px;
+}
+
+@media (max-width: 991px) {
+  .message__icon-label {
+    height: 12px;
+    top: -2px;
+    right: -5px;
+    padding: 2px 4px;
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+@media (min-width: 991px) {
+  .messenger__header-title .message__count {
+    top: 0px;
+    right: -30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .messenger__header-title .message__count {
+    width: 23px;
+    height: 17px;
+    top: 3px;
+    right: -25px;
+    padding: 2px 4px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+}
+
+.message__icon {
+  margin: auto 40px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  fill: #c5c5c5;
+}
+
+.message__icon-small {
+  width: 20px;
+  height: 20px;
+}
+
+.message__icon:hover svg {
+  fill: #3f59b7;
+}
+
+@media (max-width: 991px) {
+  .message__icon {
+    margin: auto 20px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.message__icon svg {
+  width: 25px;
+  height: 25px;
+  fill: #c5c5c5;
+}
+
+.message__icon svg.small {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 991px) {
+  .message__icon svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*# sourceMappingURL=message_icon.css.map */

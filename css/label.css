@@ -1,0 +1,139 @@
+.status__text::before {
+  content: "offline";
+  color: #c5c5c5;
+  font-size: 12px;
+}
+
+.online .status__label {
+  position: relative;
+}
+
+.online .status__label:after {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: solid 3px #ffffff;
+  background: #37aa50;
+}
+
+@media (max-width: 991px) {
+  .online .status__label:after {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: solid 2px #ffffff;
+    background: #37aa50;
+  }
+}
+
+.online .status__text::before {
+  content: "online";
+  color: #37aa50;
+  font-size: 12px;
+}
+
+.label-load {
+  height: 10px;
+  width: 10px;
+}
+
+.label-load.loaded {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.label-load.loaded::before {
+  position: absolute;
+  content: "";
+  background: #ce1818;
+  height: 10px;
+  width: 1px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.label-load.loaded::after {
+  position: absolute;
+  content: "";
+  background: #ce1818;
+  height: 10px;
+  width: 1px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.label__fontsize-16 {
+  font-size: 16px;
+}
+
+.label__fontsize-10 {
+  font-size: 10px;
+}
+
+.label__blue {
+  background: #3f59b7;
+  color: #ffffff;
+}
+
+.label__yellow {
+  background: #fddf3b;
+  color: #444444;
+}
+
+.label__gray {
+  background: #eef1f8;
+  color: #c5c5c5;
+}
+
+.label__circl {
+  height: 17px;
+  min-width: 17px;
+  line-height: 17px !important;
+  display: inline-block;
+  text-align: center;
+  border-radius: 9px;
+  padding: 0 5px;
+  vertical-align: text-bottom;
+}
+
+.label__comment {
+  margin-bottom: 10px;
+  color: #444444;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.label__comment__largeFont {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+@media (max-width: 991px) {
+  .label__comment__largeFont {
+    margin-bottom: 5px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .label__comment {
+    margin-bottom: 5px;
+  }
+}
+
+.label__error .error_text {
+  display: none;
+}
+/*# sourceMappingURL=label.css.map */

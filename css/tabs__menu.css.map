@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles_elements/tabs__menu.scss"
+    ],
+    "names": [],
+    "file": "tabs__menu.css"
+}

@@ -1,0 +1,38 @@
+@import '../scss/variables.scss';
+.block-center {
+    &.with__news {
+        @media (min-width:$xl) {
+        .block-center {
+            &-content {
+                width: 100%;
+
+                &__center {
+                    width: calc(100% - 390px);
+                    @media (min-width: $xl) and (max-width: $xxl){
+                        width: calc(100% - 300px);
+                    }
+                }
+
+                &__right {
+                    overflow: auto;
+                    position: sticky;
+                    top: 0px;
+                    height: fit-content;
+                    width: 390px;
+                    margin-right: 0;
+                    @media (min-width: $xl) and (max-width: $xxl){
+                        width: 300px;
+                    }
+
+                    &.can__scroll:hover {
+                        top: 90px;
+                        right: 80px;
+                        height: calc(100vh - 75px);
+                        overflow: scroll;
+                        position: fixed;
+                    }
+                }
+            }
+        }
+    }}
+}

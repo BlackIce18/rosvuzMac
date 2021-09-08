@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/pages/setting__rosvuz.scss"
+    ],
+    "names": [],
+    "file": "setting__rosvuz.css"
+}

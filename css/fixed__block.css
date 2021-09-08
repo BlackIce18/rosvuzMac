@@ -1,0 +1,41 @@
+.fixed-bg-white {
+  background: #ffffff;
+}
+
+@media (min-width: 1199px) {
+  .fixed-xl {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+.fixed__bottom {
+  bottom: 0;
+}
+
+.fixed-width-center {
+  padding-left: 50px;
+  left: 330px;
+}
+
+@media (min-width: 1400px) {
+  .fixed-width-center {
+    max-width: calc(100vw - 330px - 390px - 80px - 25px);
+  }
+}
+
+@media (min-width: 1199px) and (max-width: 1400px) {
+  .fixed-width-center {
+    max-width: calc(100vw - 330px - 300px - 80px - 25px);
+  }
+}
+
+@media (max-width: 1199px) {
+  .fixed-lg-defaultSetting {
+    position: static;
+    width: 100%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=fixed__block.css.map */

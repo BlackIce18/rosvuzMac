@@ -1,0 +1,14 @@
+.list__line {
+  display: block;
+  list-style: none;
+}
+
+.list__line li {
+  line-height: 22px;
+}
+
+.list__line li::before {
+  content: "-";
+  padding-right: 4px;
+}
+/*# sourceMappingURL=list.css.map */
