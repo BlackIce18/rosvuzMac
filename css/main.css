@@ -316,8 +316,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0px;
-    min-height: 100%;
-    height: calc( 100vh - 150px );
+    height: fit-content;
     width: 390px;
     margin-right: 0;
   }

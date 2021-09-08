@@ -3,8 +3,13 @@ $(document).ready(function () {
     $('.scroll').css({
         minHeight: child__height
       });
+    ChangeRightBlockSize();
     $(window).on('scroll',function (event) {
-        var window_height=$(window).height();
+        ChangeRightBlockSize();
+    });})
+
+function ChangeRightBlockSize() {
+    var window_height=$(window).height();
     var window_scroll=$(window).scrollTop();
     var block__height=$(".scroll").height()+$(".scroll").position().top;
     var scroll_toEnd=block__height-window_height-window_scroll;
@@ -14,5 +19,4 @@ $(document).ready(function () {
     else{
         $(".scroll__child").toggleClass("can__scroll",true);
     }
-        
-    });})
+}
