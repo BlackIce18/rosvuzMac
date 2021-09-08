@@ -1331,6 +1331,14 @@ svg.icon_plus {
   border-radius: 10px;
   padding: 30px 40px;
 }
+.resume.group-list-item {
+  min-height: 115px;
+}
+@media (max-width: 991px) {
+  .resume.group-list-item {
+    min-height: 75px;
+  }
+}
 .resume__container.active .resume__text_block {
   max-height: 100%;
 }

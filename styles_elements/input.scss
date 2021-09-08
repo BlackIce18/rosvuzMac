@@ -315,6 +315,14 @@ svg {
     border-radius: 10px;
     padding: 30px 40px;
 
+    &.group-list-item {
+        min-height: 115px;
+        
+        @media (max-width: $lg) {
+            min-height: 75px;
+        }
+    }
+
     &__container {
         &.active {
             .resume__text_block {
