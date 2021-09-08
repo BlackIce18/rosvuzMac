@@ -12,7 +12,9 @@ $(document).ready(function () {
 
     $(document).on('mouseup', function (e){
         var input__dropdown = $('.input__dropdown').parent();
-
+        console.log(e.target);
+        console.log(!input__dropdown.is(e.target));
+        console.log(input__dropdown.has(e.target).length);
         if (!input__dropdown.is(e.target)  && input__dropdown.has(e.target).length === 0) {
             $(input__dropdown).children('.dropdown__itemsBlock').addClass('hide');
             $(input__dropdown).children('.arrow_down_SVG').removeClass('arrow_down_SVG_inverted');
