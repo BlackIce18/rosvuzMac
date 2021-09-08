@@ -2038,6 +2038,9 @@ svg.icon_plus {
   background: url("../resource/icons/placeholder_gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   display: block;
   width: 30px;
   height: 100%;
@@ -2058,6 +2061,9 @@ svg.icon_plus {
   background: url("../resource/icons/placeholder_gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   display: block;
   width: 30px;
   height: 100%;
@@ -2075,6 +2081,9 @@ svg.icon_plus {
   background: url("../resource/icons/mortarboard_gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   display: block;
   width: 30px;
   height: 100%;
@@ -2095,6 +2104,9 @@ svg.icon_plus {
   background: url("../resource/icons/balloons_gray.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   display: block;
   width: 30px;
   height: 100%;
@@ -2137,6 +2149,9 @@ svg.icon_plus {
   width: 25px;
   height: 15px;
   background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
   background-repeat: no-repeat;
 }
 .user-inform-standart .user-inform-photo {
