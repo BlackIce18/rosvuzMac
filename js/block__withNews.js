@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.scroll').css({
         minHeight: child__height
       });
-    $(window).scroll(function (event) {
+    $(window).on('scroll',function (event) {
         var window_height=$(window).height();
     var window_scroll=$(window).scrollTop();
     var block__height=$(".scroll").height()+$(".scroll").position().top;

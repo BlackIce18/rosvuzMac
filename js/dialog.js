@@ -1,11 +1,11 @@
 $(document).ready(function () {
-    $('.messenger__dialog_message_wrapper').hover(function () {
+    $('.messenger__dialog_message_wrapper').on('hover',function () {
         $(this).children('.dialog__message ').children('.additionalThreePoints').removeClass('hide');
     }, function () {
         $(this).children('.dialog__message ').children('.additionalThreePoints').addClass('hide');
     });
 
-    $('.messenger__dialog_pinned_message').click(function () {
+    $('.messenger__dialog_pinned_message').on('click',function () {
         $(this).toggleClass('pin_overflow');
         $('.arrow_down_SVG').toggleClass('arrow_down_SVG_inverted');
     })
