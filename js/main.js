@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     $(document).on('mouseup', function (e){
-        let input__dropdown = $('.input__dropdown').parent();
+        var input__dropdown = $('.input__dropdown').parent();
 
         if (!input__dropdown.is(e.target)  && input__dropdown.has(e.target).length === 0) {
             $(input__dropdown).children('.dropdown__itemsBlock').addClass('hide');
