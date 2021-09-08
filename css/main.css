@@ -2033,7 +2033,7 @@ svg.icon_plus {
   color: #c5c5c5;
   display: block;
 }
-.user-inform-standart .user-inform-city .icon:after {
+.user-inform-standart .user-inform-city .icon:after, .user-inform-standart .user-inform-city .icon::after {
   content: "";
   background: url("../resource/icons/placeholder_gray.svg");
   background-repeat: no-repeat;
@@ -2053,7 +2053,7 @@ svg.icon_plus {
   color: #c5c5c5;
   display: block;
 }
-.user-inform-standart .user-inform-workplace .icon:after {
+.user-inform-standart .user-inform-workplace .icon:after, .user-inform-standart .user-inform-workplace .icon::after {
   content: "";
   background: url("../resource/icons/placeholder_gray.svg");
   background-repeat: no-repeat;

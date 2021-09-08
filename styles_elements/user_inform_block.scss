@@ -98,7 +98,7 @@
                 }
 
                 .icon {
-                    &:after {
+                    &:after, &::after {
                         content: "";
                         background: url($icon+"placeholder_gray.svg");
                         background-repeat: no-repeat;
@@ -129,7 +129,7 @@
                 }
 
                 .icon {
-                    &:after {
+                    &:after, &::after {
                         content: "";
                         background: url($icon+"placeholder_gray.svg");
                         background-repeat: no-repeat;
