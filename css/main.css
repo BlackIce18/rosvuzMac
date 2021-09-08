@@ -1339,6 +1339,14 @@ svg.icon_plus {
     min-height: 75px;
   }
 }
+.resume.vacancy-list-item {
+  min-height: 140px;
+}
+@media (max-width: 991px) {
+  .resume.vacancy-list-item {
+    min-height: 120px;
+  }
+}
 .resume__container.active .resume__text_block {
   max-height: 100%;
 }

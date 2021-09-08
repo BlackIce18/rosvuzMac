@@ -323,6 +323,14 @@ svg {
         }
     }
 
+    &.vacancy-list-item {
+        min-height: 140px;
+
+        @media (max-width: $lg) {
+            min-height: 120px;
+        }
+    }
+
     &__container {
         &.active {
             .resume__text_block {
