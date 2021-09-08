@@ -9,12 +9,12 @@ $(document).ready(function () {
     $('#menu__button__burger').click(function () {
         $(this).toggleClass('show');
     });
-
-    $('.input__dropdown').click(function () {
+    $('body').on('click', '.input__dropdown', function () {
         var parent = $(this).parent();
         $(parent).children('.dropdown__itemsBlock').toggleClass('hide');
         $(parent).children('.arrow_down_SVG').toggleClass('arrow_down_SVG_inverted');
     });
+
 
     $('.dropdown__itemsBlock>li').click(function(){
         $(this).closest('.inputWrapper').children('.input__dropdown').val($(this).children('.dropdown__itemWithImage_text').text());
