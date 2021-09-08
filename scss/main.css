@@ -1355,6 +1355,14 @@ svg.icon_plus {
     min-height: 55px;
   }
 }
+.resume.portfolio-list-item {
+  min-height: 80px;
+}
+@media (max-width: 991px) {
+  .resume.portfolio-list-item {
+    min-height: 90px;
+  }
+}
 .resume__container.active .resume__text_block {
   max-height: 100%;
 }

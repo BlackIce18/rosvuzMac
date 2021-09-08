@@ -339,6 +339,14 @@ svg {
         }
     }
 
+    &.portfolio-list-item {
+        min-height: 80px;
+
+        @media (max-width: $lg) {
+            min-height: 90px;
+        }
+    }
+
     &__container {
         &.active {
             .resume__text_block {
