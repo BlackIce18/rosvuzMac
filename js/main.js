@@ -11,13 +11,12 @@ $(document).ready(function () {
     });
 
     $('.input__dropdown').click(function () {
-        let parent = $(this).parent();
+        var parent = $(this).parent();
         $(parent).children('.dropdown__itemsBlock').toggleClass('hide');
         $(parent).children('.arrow_down_SVG').toggleClass('arrow_down_SVG_inverted');
     });
 
     $('.dropdown__itemsBlock>li').click(function(){
-        console.log($(this).closest('.inputWrapper'));
         $(this).closest('.inputWrapper').children('.input__dropdown').val($(this).children('.dropdown__itemWithImage_text').text());
     })
 
