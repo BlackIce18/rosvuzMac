@@ -18,7 +18,8 @@
                     position: sticky;
                     position: -webkit-sticky;
                     top: 0px;
-                    height: fit-content;
+                    min-height: 100%;
+                    height: calc( 100vh - 150px );
                     width: 390px;
                     margin-right: 0;
                     @media (min-width: $xl) and (max-width: $xxl){
