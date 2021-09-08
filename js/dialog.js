@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $('.messenger__dialog_message_wrapper').on('hover',function () {
+    $('.messenger__dialog_message_wrapper').on('mouseenter',function () {
         $(this).children('.dialog__message ').children('.additionalThreePoints').removeClass('hide');
-    }, function () {
+    }).on('mouseleave',function () {
         $(this).children('.dialog__message ').children('.additionalThreePoints').addClass('hide');
     });
 
