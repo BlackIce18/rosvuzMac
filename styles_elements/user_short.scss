@@ -3,6 +3,8 @@
 .user{
    &__short{
       width: fit-content;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
       display: flex;
       &-photo{
          p{
