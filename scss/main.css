@@ -313,7 +313,8 @@
 @media (min-width: 1199px) {
   .block-center.with__news .block-center-content__right {
     overflow: auto;
-    position: static;
+    position: sticky;
+    position: -webkit-sticky;
     top: 0px;
     height: fit-content;
     width: 390px;

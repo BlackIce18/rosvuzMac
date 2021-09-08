@@ -15,7 +15,8 @@
 
                 &__right {
                     overflow: auto;
-                    position: static;
+                    position: sticky;
+                    position: -webkit-sticky;
                     top: 0px;
                     height: fit-content;
                     width: 390px;
