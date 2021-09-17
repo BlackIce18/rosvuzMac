@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     $('.dropdown__itemsBlock>li').on('click',function(){
         $(this).closest('.inputWrapper').children('.input__dropdown').val($(this).children('.dropdown__itemWithImage_text').text());
-    })
+    });
 
     $('.input__dropdown').on('click', function () {
         var parent = $(this).parent();
